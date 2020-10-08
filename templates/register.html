@@ -13,13 +13,13 @@
 			margin: 0;
 			padding: 0;
 			height: 100%;
-			background: #7abecc !important;
+			background: #ffff !important;
 		}
 		.user_card {
 			width: 350px;
 			margin-top: auto;
 			margin-bottom: auto;
-			background: #74cfbf;
+			background: #009edc;
 			position: relative;
 			display: flex;
 			justify-content: center;
@@ -37,12 +37,12 @@
 		}
 
 		#form-title{
-			color: #fff;
+			color: #000;
 		}
 		.login_btn {
 			width: 100%;
-			background: #33ccff !important;
-			color: white !important;
+			background: #ffff!important;
+			color: black !important;
 		}
 		.login_btn:focus {
 			box-shadow: none !important;
@@ -112,7 +112,8 @@
 		
 				<div class="mt-4">
 					<div class="d-flex justify-content-center links">
-						Already have an account? <a href="{% url 'polls:login' %}" class="ml-2">Login</a>
+						Already have an account? <a href="{% url 'polls:login' %}" class="ml-2" style="color:black"> 
+						Login</a>
 					</div>
 				</div>
 			</div>
